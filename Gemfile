@@ -4,6 +4,7 @@ ruby '1.9.3'
 
 gem 'rails_12factor', group: :production
 gem 'rails', '4.0.1'
+gem "heroku", "~> 3.1.0"
 
 group :production do 
 	gem 'pg'
