@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
+ruby '2.0.0'
 
-gem 'rails_12factor', group: :production
 gem 'rails', '4.0.1'
-gem "heroku", "~> 3.1.0"
+
 
 group :production do 
 	gem 'pg'
+	
 end
 
 group :development, :test do
