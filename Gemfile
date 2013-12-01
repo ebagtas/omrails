@@ -3,13 +3,13 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 gem 'rails', '4.0.1'
-gem 'rails_12factor'
+gem 'rails_12factor', group: :production
 
 group :production do 
 	gem 'pg'
-	gem 'unicorn'
-	gem 'rails_log_stdout',       github: 'heroku/rails_log_stdout'
-	gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
+	#gem 'unicorn'
+	#gem 'rails_log_stdout',       github: 'heroku/rails_log_stdout'
+	#gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 end
 
 group :development, :test do
